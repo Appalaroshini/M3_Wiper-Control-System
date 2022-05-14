@@ -50,6 +50,45 @@ The STM32F407G-DISC1 is a Discovery Kit allows users to easily develop applicati
 #### WHO DISCOVERED WIPER SYSTEM
  * Mark Anderson invented on 1902
 
+# SWOT ANALYSIS:
+### Strengths:
+a) Growth in production of vehicles
+
+b) Higher demand for luxury features
+
+c) Automatic wiper control system
+
+d) Less power consumption
+
+e) Operating level is easy
+
+### Weakness:
+a) May not be working at inclement weather
+
+b) May not detect objects
+
+c) It may also malfunction if components fail
+
+d) Sometimes not working properly
+
+e) High cost
+
+### Opportunities:
+a) The wiper serves to clean the windshield of the any automobile at the front and rear. Wiper works by removing oil, dust, rainwater, and dirt that get stuck to the windshield.
+
+b) Wipers detect moisture on the windshield and activate the wipers to help increase driver visibility.
+
+c) Improve safety by decressing driver distraction.
+
+### Threats:
+a) Time interval may vary thereby it cause some problem on wiper system.
+
+b) Due to so much ice or snow on windshield may cause the wipers to get jammed and cause circuit overloading.
+
+c) Accident may occur due to fault in wiper system.
+
+
+
 ### High Level Requirements
 | RID | Description | Status |
 | -- | ----------- | ------ |
