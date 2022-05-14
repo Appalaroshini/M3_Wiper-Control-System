@@ -60,22 +60,7 @@ The STM32F407G-DISC1 is a Discovery Kit allows users to easily develop applicati
   * The windshield wipers remove rain and snow from the windshield, while the headlights improve visibility at night.
 #### WHO DISCOVERED WIPER SYSTEM
  * Mark Anderson invented on 1902
-# SWOT Analysis 
-## Strength
-* Visibility
-* The wiper does not stop in the middle of the window during drive.
-* Safety
 
-## Weakness 
-* High cost
-* Not automatic
-
-## Opportunities
-* Rain sensing and automatic operation can be implemented as further enhancement.
-
-
-## Threats 
-* Once the board repaired cannot be replaced quickly
 
 # REQUIREMENTS
 ## High level requirements
