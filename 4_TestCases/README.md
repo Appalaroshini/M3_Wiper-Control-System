@@ -1,7 +1,7 @@
 # Test Plans
 # High level test plan
-ID	Description	Expected O/P	Actual O/P	Type of test
-H_01	Wiper is moving along the windshield	PASSED	SUCCESS	Scenario
+# ID	# Description	# Expected O/P	        # Actual O/P	# Type of test
+H_01	  Wiper is moving along the windshield	PASSED	      SUCCESS	Scenario
 H_02	Wiper is comes to rest at the end	PASSED	SUCCESS	Boundary
 ID	Description	Input	Output	Status
 L_01	Button Pressed	input = 2 sec	Red LED ON	PASS
