@@ -76,15 +76,18 @@ The STM32F407G-DISC1 is a Discovery Kit allows users to easily develop applicati
 | LR_04	|Button pressed fourth time | 8 Hz speed - Blue, Green Orange alternative |	Implemented |
 | LR_05 |	Button pressed again for two seconds |Turn Off all LEDs |	Implemented |
 
- ## Design
+## Design
 ## Flow chart 
 
-![flowwiper](https://user-images.githubusercontent.com/101174057/167923605-5b7a6dcc-20da-40a4-923f-0bb71637ba14.png)
+![image](https://user-images.githubusercontent.com/101495481/168426038-20ca0e70-2797-4150-b7e7-96753cd00b34.png)
 
 
-## Structural diagram 
 
-![structural](https://user-images.githubusercontent.com/101174057/167923856-3066018e-aab3-4bb1-ab80-f976023ccdec.png) 
+## Schematic diagram 
 
-# Block Diagram:
-![BLOCK DIAGRAM (1)](https://user-images.githubusercontent.com/101699116/168216608-1d2c05db-9c7e-4cdb-9908-47f6503dd69f.png)
+![image](https://user-images.githubusercontent.com/101495481/168426073-0ae72b6f-4970-4fc0-bc6b-f5b790941a5c.png)
+
+
+Block Diagram:
+
+![image](https://user-images.githubusercontent.com/101495481/168425936-7726046f-e14c-4a3f-b2a1-d1d181a92170.png)
