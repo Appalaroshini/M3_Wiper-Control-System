@@ -91,3 +91,7 @@ The STM32F407G-DISC1 is a Discovery Kit allows users to easily develop applicati
 Block Diagram:
 
 ![image](https://user-images.githubusercontent.com/101495481/168425936-7726046f-e14c-4a3f-b2a1-d1d181a92170.png)
+
+# Output
+![image](https://user-images.githubusercontent.com/101495481/168428830-a5c481a0-ce59-4842-b17b-27693468b4b9.png)
+
