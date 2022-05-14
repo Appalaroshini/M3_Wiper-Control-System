@@ -6,9 +6,6 @@ For this project, we use the STM32F4xx-discovery board to display the vehicle fi
 The operation of the windshield wiper is a manual operation that requires opening to remove rain and debris from the screen. This not only requires the driver's attention, but also, causes a certain degree of discomfort to the driver and serves as a source of distraction that increases the risk of accidents. To comfort the driver and reduce the risk of accidents, an automatic rain sensor is now a must. Although such a device is available on the market, its high cost and other similar limitations have made it relatively popular in the automotive industry. The aim of this project was to promote another cost-effective model in the market while maintaining efficiency. Rain sensor, microcontroller and integrated driver circuit (IC) are the major components used in the construction and operation of the proposed device. Falling water is quickly and accurately detected by a rain sensor and transmits the signal to the second component i.e..microcontroller which gives the driver IC the ability to change the required movement of the wires when using a servo motor. This device converts hard manual labor into smooth automatic.
 
 
-# INTRDUCTION
-Wiper system is the utility project. It is used to clean the wind shield of the car at the front and rear. Wiper works by removing oil,dust,rain water and dirt.That get struck to the wind shield and the arm is provided by the motor.The warm gear is able to generate the force required to move the wipers as fast as they need to move. now a days we have an automatic wiper control when ever we stop wiping in between the process it will automatically comes to initial position this is the new wiper system as behined in the wiper arm.The car wipers that have been available in the present day market are manual systems that work on the principle of manual switching.Our proposed system proposes an automatic wiper system that automatically switches ON the wiper on detection of rain and stops the wiper action when rain stops. This system eases the work of driver by eliminating the manual human intervention for initiating the wiper action, thereby contributing to the comfort driving.
-This Wiper Speed Control System is utilised in all sorts of automobiles, and its primary function is to remove rain air drops from the vehicle's front screen. Because driving a vehicle in the rain is quite difficult, we will use wipers to clear the front screen of the vehicle, which is a mirror, so that we may drive the vehicle even in the rain.
 
 # WORKING 
 * The RED LED is considered for the ACC position. Once the push button is pressed for 2 seconds, the RED LED keeps continuously glowing until the stop of the engine signifying the engine condition to be turned ON.
@@ -16,23 +13,23 @@ This Wiper Speed Control System is utilised in all sorts of automobiles, and its
 * The LED glow pattern stops on the 4th press; the wiper action starts with the next press.
 * If the push button is pressed for 2 seconds continuously, the RED light goes off and the pattern stops bringing it to default position which signifies the engine is turned OFF.
 
-# REQUIREMENTS FOR THE PROJECTS ARE :
-## STM32Cube IDE :
+# REQUIREMENTS 
+## STM32Cube IDE 
 * STM32Cube software ecosystem. STM32CubeIDE is an advanced C/C++ development platform with peripheral configuration, code generation, code compilation, and debug features for STM32 microcontrollers and microprocessors. It is based on the Eclipse®/CDT™ framework and GCC toolchain for the development, and GDB for the debugging. It allows the integration of the hundreds of existing plugins that complete the features of the Eclipse® IDE.
 
 
-## Xpack Packages :
+## Xpack Packages 
 
-### Windows Build Tools:
+### Windows Build Tools
 * The xPack Windows Build Tools is a standalone Windows binary distribution of GNU make and a few of other tools required by the Eclipse Embedded CDT (formerly GNU MCU/ARM Eclipse) project, but the binaries can also be used in generic build environments.
 
-### OpenOCD :
+### OpenOCD 
 * Open On-Chip Debugger (OpenOCD) is a free, open-source project that aims to provide debugging, in-system programming, and boundary scan using a debug adapter. The adapter is a hardware module that provides the right signals for the target to understand.
 
-### QEMU :
+### QEMU 
 * The xPack QEMU Arm is a standalone cross-platform binary distribution of QEMU, with several extensions for Arm Cortex-M devices.
 
-## COMPONENTS USED IN PROJECT:
+## COMPONENTS
 
 ### STM32F407G-DISC1
 
