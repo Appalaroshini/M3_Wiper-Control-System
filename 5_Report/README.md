@@ -7,11 +7,6 @@ The operation of the windshield wiper is a manual operation that requires openin
 
 
 
-# WORKING 
-* The RED LED is considered for the ACC position. Once the push button is pressed for 2 seconds, the RED LED keeps continuously glowing until the stop of the engine signifying the engine condition to be turned ON.
-* On press of the user input push button, the other three Blue, Green and Orange LEDs come ON one at a time with the set frequency. The frequency changes on every alternate key press, 3 frequency levels with 1, 4 and 8 Hz.
-* The LED glow pattern stops on the 4th press; the wiper action starts with the next press.
-* If the push button is pressed for 2 seconds continuously, the RED light goes off and the pattern stops bringing it to default position which signifies the engine is turned OFF.
 
 # REQUIREMENTS 
 ## STM32Cube IDE 
@@ -97,22 +92,27 @@ c) Accident may occur due to fault in wiper system.
 
 
 
-# REQUIREMENTS
-## High level requirements
-| ID | Description | Status |
-| --- | --- | --- | 
-| HR_01 | ACC Mode Operation |	Implemented |
-| HR_02 |	Wiper ON |	Implemented |
-| HR_03 |	Wiper Speed Change |	Implemented |
-| HR_04 |	Wiper OFF |	Implemented |
-## Low level requirements
-| ID |	Description | Operation |	Status |
-| --- | --- | --- | --- |
-| LR_01 |	Button pressed once for 2 secs | Red LED ON |	Implemented |
-| LR_02 |	Button pressed second time | 1 Hz speed - Blue, Green Orange alternative |	Implemented |
-| LR_03	|Button pressed third time | 4 Hz speed - Blue, Green Orange alternative |	Implemented |
-| LR_04	|Button pressed fourth time | 8 Hz speed - Blue, Green Orange alternative |	Implemented |
-| LR_05 |	Button pressed again for two seconds |Turn Off all LEDs |	Implemented |
+
+### High Level Requirements
+| RID | Description | Status |
+| -- | ----------- | ------ |
+| HLR1 | EMBEDDED C LANGUAGE | IMPLEMENTED |
+| HLR2 | OS WINDOWS | IMPLEMENTED |
+| HLR3 | STM32CUBEIDE | IMPLEMENTED |
+| HLR4 | CYGWIN | IMPLEMENTED |
+| HLR5 | QEMU  | IMPLEMENTED |
+| HLR6 | HARDDISK | IMPLEMENTED |
+| HLR7 | RAM 4GB | IMPLEMENTED |
+
+
+### Low Level Requirements
+| RID | Description | Status |
+| -- | ----------- | ------ |
+| LLR1 | RED LED ON | IMPLEMENTED |
+| LLR2 | BLUE LED FREQUENCY 1HZ | IMPLEMENTED |
+| LLR3 | GREEN LED FREQUENCY 4HZ | IMPLEMENTED |
+| LLR4 | ORANGE LED FREQUENCY 8HZ | IMPLEMENTED |
+| LLR5 | RED LED OFF  | IMPLEMENTED |
 
 ## Design
 ## Flow chart 
