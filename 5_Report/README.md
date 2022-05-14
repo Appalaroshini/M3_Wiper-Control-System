@@ -93,10 +93,4 @@ Block Diagram:
 ![image](https://user-images.githubusercontent.com/101495481/168425936-7726046f-e14c-4a3f-b2a1-d1d181a92170.png)
 
 # Output
-![image](https://user-images.githubusercontent.com/101495481/168428830-a5c481a0-ce59-4842-b17b-27693468b4b9.png)
-
-![image](https://user-images.githubusercontent.com/101495481/168428903-17575e2c-28d0-479c-a6ca-337bd5aa9b7c.png)
-
-![image](https://user-images.githubusercontent.com/101495481/168428913-d19c48ed-3970-47d4-a133-857f355dc4d3.png)
-
 
