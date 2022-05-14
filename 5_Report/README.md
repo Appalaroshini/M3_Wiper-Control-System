@@ -94,3 +94,6 @@ Block Diagram:
 
 # Output
 
+![image](https://user-images.githubusercontent.com/101495481/168429100-cc49fa19-7e9a-4163-b0f5-825a45493efc.png)
+![image](https://user-images.githubusercontent.com/101495481/168429109-e7fd934b-108a-44f1-9821-9cf2144d09ab.png)
+![image](https://user-images.githubusercontent.com/101495481/168429124-08402b75-4ba5-4f70-93ee-98aa180ab5ba.png)
