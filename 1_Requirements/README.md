@@ -1,26 +1,22 @@
-# WORKING 
-* The RED LED is considered for the ACC position. Once the push button is pressed for 2 seconds, the RED LED keeps continuously glowing until the stop of the engine signifying the engine condition to be turned ON.
-* On press of the user input push button, the other three Blue, Green and Orange LEDs come ON one at a time with the set frequency. The frequency changes on every alternate key press, 3 frequency levels with 1, 4 and 8 Hz.
-* The LED glow pattern stops on the 4th press; the wiper action starts with the next press.
-* If the push button is pressed for 2 seconds continuously, the RED light goes off and the pattern stops bringing it to default position which signifies the engine is turned OFF.
 
-# REQUIREMENTS
-## STM32Cube IDE 
+
+# REQUIREMENTS FOR THE PROJECTS ARE :
+## STM32Cube IDE :
 * STM32Cube software ecosystem. STM32CubeIDE is an advanced C/C++ development platform with peripheral configuration, code generation, code compilation, and debug features for STM32 microcontrollers and microprocessors. It is based on the Eclipse®/CDT™ framework and GCC toolchain for the development, and GDB for the debugging. It allows the integration of the hundreds of existing plugins that complete the features of the Eclipse® IDE.
 
 
-## Xpack Packages 
+## Xpack Packages :
 
-### Windows Build Tools
+### Windows Build Tools:
 * The xPack Windows Build Tools is a standalone Windows binary distribution of GNU make and a few of other tools required by the Eclipse Embedded CDT (formerly GNU MCU/ARM Eclipse) project, but the binaries can also be used in generic build environments.
 
-### OpenOCD 
+### OpenOCD :
 * Open On-Chip Debugger (OpenOCD) is a free, open-source project that aims to provide debugging, in-system programming, and boundary scan using a debug adapter. The adapter is a hardware module that provides the right signals for the target to understand.
 
-### QEMU 
+### QEMU :
 * The xPack QEMU Arm is a standalone cross-platform binary distribution of QEMU, with several extensions for Arm Cortex-M devices.
 
-## COMPONENTS USED IN PROJECT
+## COMPONENTS USED IN PROJECT:
 
 ### STM32F407G-DISC1
 
@@ -38,6 +34,11 @@ The STM32F407G-DISC1 is a Discovery Kit allows users to easily develop applicati
 * Generator of true random numbers.
 * Hardware calendar, CRC calculating unit, 96-bit unique ID RTC, subsecond accuracy.
 
+# WORKING 
+* The RED LED is considered for the ACC position. Once the push button is pressed for 2 seconds, the RED LED keeps continuously glowing until the stop of the engine signifying the engine condition to be turned ON.
+* On press of the user input push button, the other three Blue, Green and Orange LEDs come ON one at a time with the set frequency. The frequency changes on every alternate key press, 3 frequency levels with 1, 4 and 8 Hz.
+* The LED glow pattern stops on the 4th press; the wiper action starts with the next press.
+* If the push button is pressed for 2 seconds continuously, the RED light goes off and the pattern stops bringing it to default position which signifies the engine is turned OFF.
 
  ## 4 W'S
 #### WHAT IS WIPER SYSTEM
@@ -49,7 +50,6 @@ The STM32F407G-DISC1 is a Discovery Kit allows users to easily develop applicati
 #### WHO DISCOVERED WIPER SYSTEM
  * Mark Anderson invented on 1902
 
-# REQUIREMENTS
 ## High level requirements
 | ID | Description | Status |
 | --- | --- | --- | 
