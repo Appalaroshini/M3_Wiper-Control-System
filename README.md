@@ -1,6 +1,11 @@
 # M3_Wiper-Control-System
 ![code quality](https://api.codiga.io/project/33474/score/svg)
 ![code grade](https://api.codiga.io/project/33474/status/svg)
+ ## Codacy
+  [![Codacy Badge](https://app.codacy.com/project/badge/Grade/25cf0013a76a4f6380b7c4e97df98b33)](https://www.codacy.com/gh/akkivanguu/M3_WiperSystem/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=akkivanguu/M3_WiperSystem&amp;utm_campaign=Badge_Grade)
+  ## code QL
+  [![CodeQL](https://github.com/akkivanguu/M3_WiperSystem/actions/workflows/c-quality.yml/badge.svg)](https://github.com/akkivanguu/M3_WiperSystem/actions/workflows/c-quality.yml)
+
 ## Abstract
 
 For this project, we use the STM32F4xx-discovery board to display the vehicle filter control system. Most car wires are controlled by a DC motor, however because the STM32F4xx-discovery does not have an engine, we test using LEDs in this application. For example, wiper control system. The STM32F4xx-discovery board has four LEDs and a Push Button. The colors of these LEDs are orange, green, red and blue. Current limit resistance connects four user LEDs to PD12, PD13, PD14, and PD15 PORTD pins on the Recovery board. To activate the push button with the STM32F407VG controller, GPIO PINs will be set as digital input pins. When you press and hold the user button for two seconds, Red When the ignition key is set to ACC, the LED turns on. In addition, the LEDs flash, indicating that the wipers are on.
