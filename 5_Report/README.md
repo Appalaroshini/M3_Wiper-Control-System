@@ -15,14 +15,11 @@ The operation of the windshield wiper is a manual operation that requires openin
 
 ## Xpack Packages 
 
-### Windows Build Tools
-* The xPack Windows Build Tools is a standalone Windows binary distribution of GNU make and a few of other tools required by the Eclipse Embedded CDT (formerly GNU MCU/ARM Eclipse) project, but the binaries can also be used in generic build environments.
+ Windows Build Tools
 
-### OpenOCD 
-* Open On-Chip Debugger (OpenOCD) is a free, open-source project that aims to provide debugging, in-system programming, and boundary scan using a debug adapter. The adapter is a hardware module that provides the right signals for the target to understand.
+ OpenOCD 
 
-### QEMU 
-* The xPack QEMU Arm is a standalone cross-platform binary distribution of QEMU, with several extensions for Arm Cortex-M devices.
+ QEMU 
 
 ## COMPONENTS
 
